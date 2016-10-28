@@ -53,7 +53,7 @@ int main ()
 
 */
 
-/*                                                     //???????????????????????????????????
+/*                                                    //???????????????????????????????????
 
 int main ()
 {
@@ -70,22 +70,23 @@ int main ()
 	
 	*/	
 
-/*
+
 int main()
 { 
-	long long n;
+	int n;
 	cout << " Input n to calculate n! : ";
 	cin >> n;
 	cout << "\nn! = "; 
+	unsigned long long fact = 1;
 
-	for (long long a = 1, fact=1; a <= n; a++) {	
+	for (int a = 1; a <= n; a++) {	
 		fact *= a;
-		cout << fact << endl;
-
+		      cout << fact << endl;                                                  
 	}
-*/
 
-	system("pause");
+	
+
+    system("pause");
     return 0;
 }
 
